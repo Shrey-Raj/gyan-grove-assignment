@@ -1,10 +1,13 @@
+import InventoryManagement from "./inventory-management";
 import Layout from "./Layout";
-import HomePage from "@/components/HomePage";
 
 function App() {
   return (
     <Layout>
-      <HomePage />
+      {/* <HomePage />
+       */}
+
+       <InventoryManagement/>
     </Layout>
   );
 }

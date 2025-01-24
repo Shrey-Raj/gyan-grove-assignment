@@ -1,0 +1,12 @@
+[
+    { "id": "1", "name": "Laptop", "category": "Electronics", "quantity": 50 },
+    { "id": "2", "name": "Desk Chair", "category": "Furniture", "quantity": 30 },
+    { "id": "3", "name": "Notebook", "category": "Stationery", "quantity": 7 },
+    { "id": "4", "name": "Printer", "category": "Electronics", "quantity": 20 },
+    { "id": "5", "name": "Stapler", "category": "Stationery", "quantity": 2 },
+    { "id": "6", "name": "Bookshelf", "category": "Furniture", "quantity": 15 },
+    { "id": "7", "name": "Mouse", "category": "Electronics", "quantity": 75 },
+    { "id": "8", "name": "Pen Set", "category": "Stationery", "quantity": 150 },
+    { "id": "9", "name": "Monitor", "category": "Electronics", "quantity": 40 },
+    { "id": "10", "name": "Filing Cabinet", "category": "Furniture", "quantity": 10 }
+]

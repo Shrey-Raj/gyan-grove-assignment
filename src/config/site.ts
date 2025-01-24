@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "React.js",
+  name: "Gyan Grove",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +11,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/Youngermaster/react-shadcn-ui-template",
-    docs: "https://ui.shadcn.com",
+    github: "https://github.com/Shrey-Raj",
   },
 };
