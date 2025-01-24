@@ -12,7 +12,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { MoreHorizontal, ArrowUpDown, Trash2, TriangleAlert } from "lucide-react"
+import { MoreHorizontal, ArrowUpDown, TriangleAlert } from "lucide-react"
 import { Input } from "@/components/ui/input"
 
 interface InventoryTableProps {

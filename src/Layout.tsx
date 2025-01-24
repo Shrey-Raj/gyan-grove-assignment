@@ -1,6 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
-import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 interface RootLayoutProps {
   children: React.ReactNode;

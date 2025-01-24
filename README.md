@@ -1,62 +1,91 @@
-# React Shadcn-UI Template
+# Dynamic Inventory Management Table
 
-This repository provides a boilerplate template for a React application using the [Shadcn-UI](https://github.com/your-link-to-shadcn-ui-repo) library and [Vite](https://vitejs.dev/) as the build tool and development server. The template is designed to help you kickstart your React projects with Shadcn-UI and Vite, offering a fast development environment and optimized production builds.
+A simple, dynamic inventory management app built with **React.js**. This app provides an intuitive interface for managing inventory items, with features to add, edit, delete, filter, and sort inventory items. It also highlights items that are low in stock for better inventory control.
+
+---
 
 ## Features
 
-- React 18 with the latest features and optimizations
-- Shadcn-UI integration for a modern and customizable UI component library
-- Vite for fast development and optimized production builds
-- ESLint and Prettier preconfigured for consistent code formatting and linting
+- **Add Items**: Easily add new items to the inventory.
+- **Edit Items**: Modify details of existing items.
+- **Delete Items**: Remove items from the inventory.
+- **Filter by Category**: Quickly find items based on their category.
+- **Sort by Quantity**: Sort items in ascending or descending order of quantity.
+- **Low Stock Highlighting**: Automatically highlights items with stock below 10.
 
-## Getting Started
+---
 
-1. Clone this repository:
+###  Preview
+<video controls src="https://github.com/user-attachments/assets/5d3c0f98-8586-4d2b-9112-504609a8bdb4" title=""></video>
 
+![Image](https://github.com/user-attachments/assets/93ad04d6-1d51-4dcd-b2f8-264bfd91cdbc)
+![Image](https://github.com/user-attachments/assets/5441a6b1-df2b-4976-a75f-0f4cb7c15080)
+
+
+
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/Youngermaster/react-shadcn-ui-template.git your-project-name
+   git clone https://github.com/your-username/gyan-grove-assignment.git
+   cd gyan-grove-assignment
    ```
 
-2. Change to the project directory:
-
-   ```bash
-   cd your-project-name
-   ```
-
-3. Install the dependencies:
-
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-4. Start the development server:
-
+3. Start the development server:
    ```bash
    npm run dev
    ```
 
-   The development server should now be running at [http://localhost:3000](http://localhost:3000).
+4. Open your browser and navigate to:
+   ```
+   http://localhost:5173
+   ```
 
-## Building for Production
+---
 
-To create an optimized production build, run:
+## Usage
 
-```bash
-npm run build
-```
+1. **Adding Items**:
+   - Click the "Add New Item" button.
+   - Fill in the item's details (e.g., name, category, quantity) and submit.
 
-The output will be available in the `dist/` folder.
+2. **Editing Items**:
+   - Click the "Edit" button under the Actions Colums to an item in the table.
+   - Update the item details and save changes.
 
-## Customizing the Template
+3. **Deleting Items**:
+   - Click the "Delete" button under the Actions Columns in the table to remove it from the inventory.
 
-You can customize the template by modifying the existing components or adding new ones in the `src` folder. You can also configure the Vite settings by editing the `vite.config.js` file.
+4. **Filtering by Category**:
+   - Type the name of category in the filter-search box.
 
-For more information on Shadcn-UI, please refer to the [official documentation](https://your-link-to-shadcn-ui-documentation).
+5. **Sorting by Quantity**:
+   - Click the table header "Quantity" to sort items in ascending or descending order.
 
-## Contributing
+6. **Low Stock Highlighting**:
+   - Items with a quantity below 10 will be automatically highlighted in red for quick identification.
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request or create an issue.
 
-## License
+---
 
-This project is licensed under the [MIT License](LICENSE).
+## Technologies Used
+
+- **React.js**: For building dynamic UI components.
+- **Tailwind CSS**: For styling the app with utility classes.
+- **Vite**: For fast development and build processes.
+
+---
+
+## Acknowledgments
+
+Special thanks to:
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://www.https://ui.shadcn.com/.com/)
+
